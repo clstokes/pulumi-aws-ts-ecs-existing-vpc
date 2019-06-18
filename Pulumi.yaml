@@ -1,0 +1,12 @@
+name: pulumi-aws-ts-ecs-existing-vpc
+runtime: nodejs
+description: An ECS Fargate example using a pre-existing VPC and Subnets
+template:
+  config:
+    aws:region:
+      description: The AWS region to deploy into
+      default: us-west-2
+    existingVpcId:
+      description: The Id of the VPC to deploy into
+    existingSubnetIds:
+      description: The Id of the Subnets to deploy into (comma-delimited value - e.g. subnet-a3bc9cda,subnet-dc6b74f4)
