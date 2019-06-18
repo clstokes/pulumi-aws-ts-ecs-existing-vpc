@@ -1,0 +1,4 @@
+config:
+  aws:region: us-west-2
+  pulumi-aws-ts-ecs-existing-vpc:existingSubnetIds: subnet-a3bc9cda,subnet-dc6b74f4
+  pulumi-aws-ts-ecs-existing-vpc:existingVpcId: vpc-0ea67076
